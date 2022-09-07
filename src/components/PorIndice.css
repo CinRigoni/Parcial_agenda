@@ -1,28 +1,33 @@
 /*------BUSQUEDA INDICE------*/
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto;
-    background-color: #fefae0;
-    padding: 2px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 2px;
-    font-size: 14px;
-    text-align: center;
-  }
-  .grid-item a {
-    text-decoration: none;
-    color: rgb(80, 60, 23);
-    display: block;
-  }
-  .grid-item a:hover {
-    color: rgb(80, 60, 23);
-    font-weight: bold;
-  }
-  .grid-item a:visited {
-    font-size: 1.2em;
-    color: rgb(32, 24, 9);
-  }
-  /*---------------------------*/
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  background-color: #fefae0;
+  padding: 2px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: rgb(80, 60, 23);
+  display: block;
+}
+
+.grid-item a:hover {
+  color: rgb(80, 60, 23);
+  font-weight: bold;
+}
+
+.grid-item a:visited {
+  font-size: 1.2em;
+  color: rgb(32, 24, 9);
+}
+
+/*---------------------------*/

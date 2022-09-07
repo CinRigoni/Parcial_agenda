@@ -1,27 +1,31 @@
-
 /*--------AGENDA CONTACTOS CIN-------*/
 img {
   height: 30px;
 }
-#foto-grid{
+
+#foto-grid {
   border-left: 1px solid rgba(0, 0, 0, 0.8);
 }
-#agenda-espaciado{
+
+#agenda-espaciado {
   margin: 30px;
 }
-.grid-agenda { 
+
+.grid-agenda {
   display: grid;
   grid-template-columns: 9% auto auto 12% auto 12%;
   background-color: none;
   padding: 2px;
 }
-.grid-interno { 
+
+.grid-interno {
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: auto ;
+  grid-template-columns: auto;
   background-color: #E9EDC9;
 }
-.grid-item-titulos {  
+
+.grid-item-titulos {
   background-color: #CCD5AE;
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
@@ -29,6 +33,7 @@ img {
   text-align: center;
   font-weight: bold;
 }
+
 .grid-item-b {
   background-color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
@@ -38,9 +43,8 @@ img {
   height: 60px;
   font-size: 14px;
   text-align: center;
-  line-height: 4;  
+  line-height: 4;
 }
 
 
 /*---------------------------*/
-

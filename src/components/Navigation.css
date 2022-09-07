@@ -1,4 +1,3 @@
-
 /*------Menu navegador-------*/
 .menu-navegador {
     display: flex;
@@ -12,8 +11,9 @@
     text-align: center;
     margin-top: 0px;
     padding-left: 0;
-  }
-  .menu-navegador li {
+}
+
+.menu-navegador li {
     list-style-type: none;
     padding: 10px;
     margin: 20px 10px;
@@ -21,19 +21,22 @@
     background-color: #d4a373;
     flex-grow: 0;
     text-align: center;
-  }
-  .menu-navegador li a {
+}
+
+.menu-navegador li a {
     text-decoration: none;
     display: block;
-  }
-  .menu-navegador li a:hover {
+}
+
+.menu-navegador li a:hover {
     color: rgb(80, 60, 23);
     font-weight: bold;
-  }
-  .menu-navegador li a:visited {
+}
+
+.menu-navegador li a:visited {
     font-size: 1.2em;
     color: rgb(32, 24, 9);
-  }
+}
 
-  
+
 /*---------------------------*/
