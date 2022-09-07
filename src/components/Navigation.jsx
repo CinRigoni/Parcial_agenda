@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const style = {
     display: 'inline-block',
-    color: '#fff',
+    color: '#000',
     textDecoration: 'none',
     paddingRight: 10,
 }
@@ -16,7 +16,6 @@ const Navigation = () => {
                 <Navbar.Brand to="/">Agenda</Navbar.Brand>
                 <Nav className="me-auto">
                     <Link style={style} to="/">Demo</Link>
-                    <Link style={style} to="/grilla">Grilla</Link>
                 </Nav>
             </Container>
         </Navbar>

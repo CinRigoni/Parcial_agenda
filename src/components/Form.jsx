@@ -62,23 +62,23 @@ const Formulario = () => {
             <Form onSubmit={(e)=> onSubmit(e)}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Url de la imagen</Form.Label>
-                    <Form.Control type="text" placeholder="Insertar url" name='fotourl' value={data.fotourl} onChange={(e)=> handleChange(e.target.name, e.target.value)}/>
+                    <Form.Control type="text" placeholder="Insertar url" name='fotourl' value={data.fotourl} onChange={(e)=> handleChange(e.target.name, e.target.value)} required/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Nombre</Form.Label>
-                    <Form.Control type="text" placeholder="Insertar nombre" name='nombre' value={data.nombre} onChange={(e)=> handleChange(e.target.name, e.target.value)}/>
+                    <Form.Control type="text" placeholder="Insertar nombre" name='nombre' value={data.nombre} onChange={(e)=> handleChange(e.target.name, e.target.value)} required/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Apellido</Form.Label>
-                    <Form.Control type="text" placeholder="Insertar apellido" name='apellido' value={data.apellido} onChange={(e)=> handleChange(e.target.name, e.target.value)}/>
+                    <Form.Control type="text" placeholder="Insertar apellido" name='apellido' value={data.apellido} onChange={(e)=> handleChange(e.target.name, e.target.value)} required/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Teléfono</Form.Label>
-                    <Form.Control type="number" placeholder="Insertar teléfono" name='telefono' value={data.telefono} onChange={(e)=> handleChange(e.target.name, e.target.value)}/>
+                    <Form.Control type="number" placeholder="Insertar teléfono" name='telefono' value={data.telefono} onChange={(e)=> handleChange(e.target.name, e.target.value)} required/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email</Form.Label>
-                    <Form.Control type="text" placeholder="Insertar email" name='email' value={data.email} onChange={(e)=> handleChange(e.target.name, e.target.value)}/>
+                    <Form.Control type="email" placeholder="Insertar email" name='email' value={data.email} onChange={(e)=> handleChange(e.target.name, e.target.value)} required/>
                 </Form.Group>
                 <Button variant="primary" type="submit" className='mb-3'>
                     Enviar
