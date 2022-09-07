@@ -1,25 +1,22 @@
-import React from 'react'
-import { Navbar, Container, Nav } from 'react-bootstrap';
-import {Link} from 'react-router-dom'
-
-const style = {
-    display: 'inline-block',
-    color: '#000',
-    textDecoration: 'none',
-    paddingRight: 10,
-}
+import React from "react";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "./Navigation.css";
 
 const Navigation = () => {
-    return(
-        <Navbar bg="dark" variant="dark">
-            <Container>
-                <Navbar.Brand to="/">Agenda</Navbar.Brand>
-                <Nav className="me-auto">
-                    <Link style={style} to="/">Demo</Link>
-                </Nav>
-            </Container>
-        </Navbar>
-    )
-}
+  return (
+    <Navbar bg="dark" variant="dark">
+      <Container>        
+        <Nav className="me-auto">
+          <ul className="menu-navegador">
+            {/*<li><Navbar.Brand to="/">Agenda</Navbar.Brand></li>*/}
+            <li><Link to="/">Demo</Link></li>
+            <li><Link to="/grilla">Grilla</Link></li>          
+          </ul>          
+        </Nav>
+      </Container>
+    </Navbar>
+  );
+};
 
 export default Navigation;

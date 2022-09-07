@@ -1,21 +1,8 @@
-.grid-container-agenda {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    background-color: #FFF;
-    padding: 2px;
-  }
-  .grid-item-agenda {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 2px;
-    font-size: 16px;
-    text-align: center;
-    font-weight:bold;
-  }
-  .grid-container {
+/*------BUSQUEDA INDICE------*/
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto;
-    background-color: #2196F3;
+    background-color: #fefae0;
     padding: 2px;
   }
   .grid-item {
@@ -25,7 +12,17 @@
     font-size: 14px;
     text-align: center;
   }
-  
-  img{
-      height:50px;
+  .grid-item a {
+    text-decoration: none;
+    color: rgb(80, 60, 23);
+    display: block;
   }
+  .grid-item a:hover {
+    color: rgb(80, 60, 23);
+    font-weight: bold;
+  }
+  .grid-item a:visited {
+    font-size: 1.2em;
+    color: rgb(32, 24, 9);
+  }
+  /*---------------------------*/
