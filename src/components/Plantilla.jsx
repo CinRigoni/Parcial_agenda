@@ -3,7 +3,6 @@ import './Plantilla.css'
 const Plantilla = () => {
     return(
         <>
-        <a href='/grilla'>Parcial</a>
         <h1>Agenda de Contactos</h1><div class="grid-container-agenda">
             <div class="grid-item-agenda">Foto</div>
             <div class="grid-item-agenda">Apellido</div>
