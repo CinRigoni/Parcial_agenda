@@ -34,6 +34,10 @@
     font-size: 1.2em;
     color: rgb(32, 24, 9);
   }
+  .menu-navegador a {
+    font-size: 1.2em;
+    color: rgb(80, 60, 23);
+  }
 
   
 /*---------------------------*/
