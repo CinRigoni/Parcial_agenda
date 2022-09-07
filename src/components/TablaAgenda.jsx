@@ -31,7 +31,7 @@ const TablaAgenda = () => {
         <div className="grid-item-titulos">Email</div>
         <div className="grid-item-titulos">Acciones</div>
 
-        <div className="grid-interno" id="foto-grid">
+        <div className="grid-interno" id="grid-foto">
           {contacts !== undefined
             ? contacts.map((contact, index) => {
                 return (
