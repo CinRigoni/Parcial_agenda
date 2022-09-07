@@ -9,7 +9,6 @@ const Navigation = () => {
       <Container>        
         <Nav className="me-auto">
           <ul className="menu-navegador">
-            {/*<li><Navbar.Brand to="/">Agenda</Navbar.Brand></li>*/}
             <li><Link to="/">Demo</Link></li>
             <li><Link to="/grilla">Grilla</Link></li>          
           </ul>          

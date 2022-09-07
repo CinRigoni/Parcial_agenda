@@ -9,9 +9,9 @@ const PorIndice = () => {
     const {letra} = useParams();
     const [contacts, setContacts] = useState([])
 
-    const buscaPorIndice = async(letra) => {
+    const buscaPorIndice = async(letraX) => {
         try{
-            const urlIndice = `http://168.194.207.98:8081/api_contacto/get_contactos.php?indice=${letra}`
+            const urlIndice = `http://168.194.207.98:8081/api_contacto/get_contactos.php?indice=${letraX}`
             const res = await fetch(urlIndice)
             const data = res.json()
             setContacts(data)
@@ -21,6 +21,7 @@ const PorIndice = () => {
         }
     }
 
+    //ARREGLAR!!!!!!!
     useEffect(()=>{
         buscaPorIndice(letra);
     })
